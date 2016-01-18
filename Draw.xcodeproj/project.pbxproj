@@ -12,6 +12,7 @@
 		B9F4C7941C4D9861002D27A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F4C7901C4D9861002D27A9 /* AppDelegate.swift */; };
 		B9F4C79B1C4D986B002D27A9 /* DrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F4C7991C4D986B002D27A9 /* DrawTests.swift */; };
 		B9F4C7A21C4D9879002D27A9 /* DrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F4C7A01C4D9879002D27A9 /* DrawUITests.swift */; };
+		B9F4C7A41C4D99D8002D27A9 /* DrawController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F4C7A31C4D99D8002D27A9 /* DrawController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		B9F4C7991C4D986B002D27A9 /* DrawTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawTests.swift; sourceTree = "<group>"; };
 		B9F4C79E1C4D9879002D27A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9F4C7A01C4D9879002D27A9 /* DrawUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawUITests.swift; sourceTree = "<group>"; };
+		B9F4C7A31C4D99D8002D27A9 /* DrawController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				B9F4C7901C4D9861002D27A9 /* AppDelegate.swift */,
+				B9F4C7A31C4D99D8002D27A9 /* DrawController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9F4C7941C4D9861002D27A9 /* AppDelegate.swift in Sources */,
+				B9F4C7A41C4D99D8002D27A9 /* DrawController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
