@@ -22,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //MARK: UIApplicationDelegate
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        window?.rootViewController = DrawController()
+        window?.makeKeyAndVisible()
         return true
     }
 }
