@@ -8,4 +8,9 @@
 
 import UIKit
 
-class DrawController: UIViewController {}
+class DrawController: UIViewController {
+
+    //MARK: Properties
+
+    var previousTouchLocation: CGPoint?
+}
