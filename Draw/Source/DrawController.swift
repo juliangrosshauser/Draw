@@ -13,4 +13,10 @@ class DrawController: UIViewController {
     //MARK: Properties
 
     var previousTouchLocation: CGPoint?
+
+    //MARK: UIViewController
+
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        previousTouchLocation = touches.first?.locationInView(view)
+    }
 }
