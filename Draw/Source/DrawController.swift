@@ -26,4 +26,30 @@ class DrawController: UIViewController {
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         previousTouchLocation = touches.first?.locationInView(view)
     }
+
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        guard let previousTouchLocation = previousTouchLocation, touchLocation = touches.first?.locationInView(view) else {
+            return
+        }
+
+        UIGraphicsBeginImageContext(view.frame.size)
+        let context = UIGraphicsGetCurrentContext()
+        CGContextSetStrokeColorWithColor(context, UIColor.blackColor().CGColor)
+        CGContextSetLineWidth(context, 3)
+        CGContextMoveToPoint(context, previousTouchLocation.x, previousTouchLocation.y)
+        CGContextAddLineToPoint(context, touchLocation.x, touchLocation.y)
+        CGContextStrokePath(context)
+        self.previousTouchLocation = touchLocation
+        imageView.image?.drawInRect(view.bounds)
+        imageView.image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+    }
+
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        previousTouchLocation = nil
+    }
+
+    override func touchesCancelled(touches: Set<UITouch>?, withEvent event: UIEvent?) {
+        previousTouchLocation = nil
+    }
 }
