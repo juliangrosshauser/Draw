@@ -12,7 +12,7 @@ class DrawController: UIViewController {
 
     //MARK: Properties
 
-    var previousTouchLocation: CGPoint?
+    private var previousTouchLocation: CGPoint?
 
     //MARK: UIViewController
 
