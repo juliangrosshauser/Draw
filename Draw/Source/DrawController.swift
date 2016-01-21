@@ -15,6 +15,10 @@ class DrawController: UIViewController {
     private var previousTouchLocation: CGPoint?
     private let imageView = UIImageView()
 
+    override var description: String {
+        return "CGContext"
+    }
+
     //MARK: UIViewController
 
     override func viewDidLoad() {
