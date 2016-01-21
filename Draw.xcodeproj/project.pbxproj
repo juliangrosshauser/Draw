@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B98F6E7F1C5194F5005D82AE /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F6E7E1C5194F5005D82AE /* TableController.swift */; };
 		B9F4C7911C4D9861002D27A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F4C78B1C4D9861002D27A9 /* Assets.xcassets */; };
 		B9F4C7921C4D9861002D27A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F4C78C1C4D9861002D27A9 /* LaunchScreen.storyboard */; };
 		B9F4C7941C4D9861002D27A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F4C7901C4D9861002D27A9 /* AppDelegate.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B98F6E7E1C5194F5005D82AE /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		B9F4C7581C4D976F002D27A9 /* Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F4C76C1C4D9770002D27A9 /* DrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F4C7771C4D9770002D27A9 /* DrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				B9F4C7901C4D9861002D27A9 /* AppDelegate.swift */,
+				B98F6E7E1C5194F5005D82AE /* TableController.swift */,
 				B9F4C7A31C4D99D8002D27A9 /* DrawController.swift */,
 			);
 			path = Source;
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98F6E7F1C5194F5005D82AE /* TableController.swift in Sources */,
 				B9F4C7941C4D9861002D27A9 /* AppDelegate.swift in Sources */,
 				B9F4C7A41C4D99D8002D27A9 /* DrawController.swift in Sources */,
 			);
