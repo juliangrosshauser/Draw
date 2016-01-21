@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //MARK: UIApplicationDelegate
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        let controllers = [DrawController()]
+        let controllers = [DrawCGContextController()]
         let tableController = TableController(controllers: controllers)
         window?.rootViewController = UINavigationController(rootViewController: tableController)
         window?.makeKeyAndVisible()

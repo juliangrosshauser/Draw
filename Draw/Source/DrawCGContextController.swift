@@ -1,5 +1,5 @@
 //
-//  DrawController.swift
+//  DrawCGContextController.swift
 //  Draw
 //
 //  Created by Julian Grosshauser on 18/01/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class DrawController: UIViewController {
+final class DrawCGContextController: UIViewController {
 
     //MARK: Properties
 
