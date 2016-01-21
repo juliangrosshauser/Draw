@@ -19,6 +19,17 @@ final class DrawController: UIViewController {
         return "CGContext"
     }
 
+    //MARK: Initialization
+
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        title = String(self)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
     //MARK: UIViewController
 
     override func viewDidLoad() {
