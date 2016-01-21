@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DrawController: UIViewController {
+final class DrawController: UIViewController {
 
     //MARK: Properties
 
