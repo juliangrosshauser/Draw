@@ -19,6 +19,7 @@ final class TableController: UITableViewController {
     init(controllers: [UIViewController]) {
         self.controllers = controllers
         super.init(style: .Plain)
+        title = "Draw"
     }
     
     required init?(coder aDecoder: NSCoder) {
